@@ -414,11 +414,13 @@ export const VirtualDashboard: React.FC<VirtualDashboardProps> = ({
                       </div>
                     ) : (
                       <div className="text-center py-12">
-                        {partner.type === 'vehicle_owner' ? (
-                          <Truck className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                        ) : (
-                          <Package className="w-16 h-16 text-gray-400 mx-auto mb-4" />
-                        )}
+                        <div className="w-16 h-16 bg-gray-200 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                          {partner.type === 'vehicle_owner' ? (
+                            <Truck className="w-8 h-8 text-gray-400" />
+                          ) : (
+                            <Package className="w-8 h-8 text-gray-400" />
+                          )}
+                        </div>
                         <h3 className="text-xl font-bold text-gray-900 mb-2">
                           No {partner.type === 'vehicle_owner' ? 'vehicles' : 'materials'} added yet
                         </h3>
@@ -430,7 +432,10 @@ export const VirtualDashboard: React.FC<VirtualDashboardProps> = ({
 
                     {partner.hasAddedVehicle && (
                       <div className="mt-6 p-4 bg-green-50 border border-green-200 rounded-xl">
-                        <p className="text-green-700 font-medium">✓ {partner.type === 'vehicle_owner' ? 'Vehicle' : 'Material'} has been added successfully!</p>
+                        <p className="text-green-700 font-medium">
+                          <CheckCircle className="w-4 h-4 inline mr-2" />
+                          {partner.type === 'vehicle_owner' ? 'Vehicle' : 'Material'} has been added successfully!
+                        </p>
                       </div>
                     )}
                   </div>

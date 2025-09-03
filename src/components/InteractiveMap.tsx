@@ -97,16 +97,6 @@ export const InteractiveMap: React.FC = () => {
                   />
                   
                   {/* Marker icon */}
-                  <text
-                    x={x}
-                    y={y + 1}
-                    textAnchor="middle"
-                    fontSize="8"
-                    fill="white"
-                    className="pointer-events-none font-bold"
-                  >
-                    📍
-                  </text>
                   
                   {/* Location label */}
                   <text

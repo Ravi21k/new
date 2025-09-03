@@ -333,17 +333,14 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <CheckCircle className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Quality Assured</h3>
                 <p className="text-black text-sm">All materials are quality tested</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Truck className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Island-wide Delivery</h3>
                 <p className="text-black text-sm">Delivery to all 25 districts</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Award className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Best Prices</h3>
                 <p className="text-black text-sm">Competitive rates from suppliers</p>
               </div>
@@ -373,7 +370,6 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                  <div className="absolute top-4 left-4 text-3xl">{category.icon}</div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3">
                       <h3 className="text-lg font-bold text-gray-900">{category.name}</h3>

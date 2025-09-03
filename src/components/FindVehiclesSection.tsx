@@ -366,17 +366,14 @@ export const FindVehiclesSection: React.FC<FindVehiclesSectionProps> = ({ onBack
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Shield className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Verified Owners</h3>
                 <p className="text-blue-100 text-sm">All vehicle owners are verified</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Clock className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Instant Contact</h3>
                 <p className="text-blue-100 text-sm">Direct contact with owners</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Award className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Best Rates</h3>
                 <p className="text-blue-100 text-sm">Competitive pricing island-wide</p>
               </div>
@@ -406,7 +403,6 @@ export const FindVehiclesSection: React.FC<FindVehiclesSectionProps> = ({ onBack
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                  <div className="absolute top-4 left-4 text-3xl">{category.icon}</div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3">
                       <h3 className="text-lg font-bold text-gray-900">{category.name}</h3>

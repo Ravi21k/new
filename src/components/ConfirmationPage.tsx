@@ -101,23 +101,14 @@ export const ConfirmationPage: React.FC<ConfirmationPageProps> = ({ onAction, re
                 {registrationData?.role === 'consumer' && (
                   <>
                     <div className="text-center">
-                      <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <LayoutDashboard className="w-6 h-6 text-blue-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Access Dashboard</h5>
                       <p className="text-gray-600 text-sm">View your personalized dashboard and start exploring</p>
                     </div>
                     <div className="text-center">
-                      <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <CheckCircle className="w-6 h-6 text-green-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Find Services</h5>
                       <p className="text-gray-600 text-sm">Browse vehicles and materials from verified suppliers</p>
                     </div>
                     <div className="text-center">
-                      <div className="bg-purple-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <Star className="w-6 h-6 text-purple-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Start Projects</h5>
                       <p className="text-gray-600 text-sm">Begin your construction projects with quality resources</p>
                     </div>
@@ -127,25 +118,16 @@ export const ConfirmationPage: React.FC<ConfirmationPageProps> = ({ onAction, re
                 {isBusinessUser && (
                   <>
                     <div className="text-center">
-                      <div className="bg-yellow-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <CheckCircle className="w-6 h-6 text-yellow-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Account Under Review</h5>
                       <p className="text-gray-600 text-sm">Your account will be verified within 24-48 hours</p>
                     </div>
                     <div className="text-center">
-                      <div className="bg-blue-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <Plus className="w-6 h-6 text-blue-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Add Services</h5>
                       <p className="text-gray-600 text-sm">
                         List your {registrationData?.role === 'vehicle_owner' ? 'vehicles' : 'materials'} to start earning
                       </p>
                     </div>
                     <div className="text-center">
-                      <div className="bg-green-100 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3">
-                        <TrendingUp className="w-6 h-6 text-green-600" />
-                      </div>
                       <h5 className="font-semibold text-gray-900 mb-2">Start Earning</h5>
                       <p className="text-gray-600 text-sm">Receive inquiries and grow your business</p>
                     </div>
