@@ -158,8 +158,8 @@ export const AboutPage: React.FC = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Shield className="text-white w-10 h-10" />
+              <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Shield className="text-white w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Quality</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -168,8 +168,8 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Clock className="text-white w-10 h-10" />
+              <div className="bg-gradient-to-br from-blue-500 to-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Clock className="text-white w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Reliability</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -178,8 +178,8 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-green-500 to-green-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Users className="text-white w-10 h-10" />
+              <div className="bg-gradient-to-br from-green-500 to-green-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Users className="text-white w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Service</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -188,8 +188,8 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <div className="text-center group">
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Award className="text-white w-10 h-10" />
+              <div className="bg-gradient-to-br from-purple-500 to-purple-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Award className="text-white w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Excellence</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -284,32 +284,32 @@ export const AboutPage: React.FC = () => {
 
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-yellow-200 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Award className="text-yellow-700 w-10 h-10" />
+              <div className="bg-yellow-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Award className="text-yellow-700 w-8 h-8" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">ISO 9001:2015</h3>
               <p className="text-gray-600 text-sm">Quality Management System Certified</p>
             </div>
 
             <div className="text-center">
-              <div className="bg-green-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Shield className="text-green-600 w-10 h-10" />
+              <div className="bg-green-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Shield className="text-green-600 w-8 h-8" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Safety Excellence</h3>
               <p className="text-gray-600 text-sm">Zero Accident Record 2023</p>
             </div>
 
             <div className="text-center">
-              <div className="bg-blue-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Star className="text-blue-600 w-10 h-10" />
+              <div className="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Star className="text-blue-600 w-8 h-8" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Best Service Provider</h3>
               <p className="text-gray-600 text-sm">Construction Industry Awards 2023</p>
             </div>
 
             <div className="text-center">
-              <div className="bg-purple-100 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <Users className="text-purple-600 w-10 h-10" />
+              <div className="bg-purple-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <Users className="text-purple-600 w-8 h-8" />
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Customer Choice</h3>
               <p className="text-gray-600 text-sm">4.9/5 Customer Satisfaction Rating</p>
