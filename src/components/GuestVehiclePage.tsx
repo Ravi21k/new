@@ -22,17 +22,14 @@ export const GuestVehiclePage: React.FC<GuestVehiclePageProps> = ({ onSignUp }) 
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Shield className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Fully Insured</h3>
                 <p className="text-blue-100 text-sm">All vehicles covered with comprehensive insurance</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Users className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Expert Operators</h3>
                 <p className="text-blue-100 text-sm">Experienced operators included with rentals</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Clock className="w-8 h-8 text-white mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">24/7 Support</h3>
                 <p className="text-blue-100 text-sm">Round-the-clock maintenance and support</p>
               </div>
@@ -61,7 +58,7 @@ export const GuestVehiclePage: React.FC<GuestVehiclePageProps> = ({ onSignUp }) 
                 className="w-full h-40 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">🚜 JCB Excavators</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">JCB Excavators</h3>
                 <p className="text-gray-600 text-sm mb-3">Heavy-duty excavation and loading equipment</p>
                 <div className="bg-blue-50 rounded-lg p-2">
                   <div className="text-xs text-gray-600">From</div>
@@ -77,7 +74,7 @@ export const GuestVehiclePage: React.FC<GuestVehiclePageProps> = ({ onSignUp }) 
                 className="w-full h-40 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">🚚 Transport Lorries</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Transport Lorries</h3>
                 <p className="text-gray-600 text-sm mb-3">Large capacity material transportation</p>
                 <div className="bg-green-50 rounded-lg p-2">
                   <div className="text-xs text-gray-600">From</div>
@@ -93,7 +90,7 @@ export const GuestVehiclePage: React.FC<GuestVehiclePageProps> = ({ onSignUp }) 
                 className="w-full h-40 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">🚰 Water Bowsers</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Water Bowsers</h3>
                 <p className="text-gray-600 text-sm mb-3">Site water supply and dust control</p>
                 <div className="bg-yellow-50 rounded-lg p-2">
                   <div className="text-xs text-gray-600">From</div>
@@ -109,7 +106,7 @@ export const GuestVehiclePage: React.FC<GuestVehiclePageProps> = ({ onSignUp }) 
                 className="w-full h-40 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">🏗️ Boom Lifts</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Boom Lifts</h3>
                 <p className="text-gray-600 text-sm mb-3">Aerial work platforms for high access</p>
                 <div className="bg-purple-50 rounded-lg p-2">
                   <div className="text-xs text-gray-600">From</div>

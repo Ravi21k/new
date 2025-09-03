@@ -22,17 +22,14 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Shield className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Quality Guaranteed</h3>
                 <p className="text-black text-sm">Certified materials from trusted suppliers</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Truck className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Island-wide Delivery</h3>
                 <p className="text-black text-sm">Delivery to all 25 districts in Sri Lanka</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <Star className="w-8 h-8 text-black mx-auto mb-3" />
                 <h3 className="font-bold text-lg mb-2">Best Prices</h3>
                 <p className="text-black text-sm">Competitive rates with direct supplier contact</p>
               </div>
@@ -61,7 +58,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🏖️ Premium Sand</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Premium Sand</h3>
                 <p className="text-gray-600 mb-4">High-quality river sand, sea sand, and construction sand from verified suppliers.</p>
                 <div className="bg-yellow-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -77,7 +74,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🌱 Quality Soil</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Quality Soil</h3>
                 <p className="text-gray-600 mb-4">Garden soil, topsoil, and fill dirt for all your landscaping needs.</p>
                 <div className="bg-green-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -93,7 +90,7 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🧱 Durable Bricks</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Durable Bricks</h3>
                 <p className="text-gray-600 mb-4">Clay bricks, concrete blocks, and pavers for strong construction.</p>
                 <div className="bg-red-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>

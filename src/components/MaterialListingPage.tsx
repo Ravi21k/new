@@ -381,7 +381,7 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
 
           <div className="text-center text-white">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              🧱 Construction Materials
+              Construction Materials
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
               Source quality construction materials from verified suppliers across Sri Lanka.
@@ -401,7 +401,6 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
             {materialCategories.map((category) => (
               <div key={category.id} className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 text-center">
-                <div className="text-3xl mb-3">{category.icon}</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{category.name}</h3>
                 <p className="text-gray-600 text-xs">{category.description}</p>
               </div>

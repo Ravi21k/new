@@ -76,7 +76,6 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
             
             <div className="grid md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <span className={`text-2xl mx-auto mb-3 block ${user.role === 'vehicle_owner' ? 'text-black' : 'text-white'}`}>⭐</span>
                 <h3 className="font-bold text-lg mb-2">Quality Assured</h3>
                 <p className={`text-sm ${
                   user.role === 'vehicle_owner' ? 'text-gray-700' : 
@@ -88,7 +87,6 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <span className={`text-2xl mx-auto mb-3 block ${user.role === 'vehicle_owner' ? 'text-black' : 'text-white'}`}>👥</span>
                 <h3 className="font-bold text-lg mb-2">Direct Contact</h3>
                 <p className={`text-sm ${
                   user.role === 'vehicle_owner' ? 'text-gray-700' : 
@@ -100,7 +98,6 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <span className={`text-2xl mx-auto mb-3 block ${user.role === 'vehicle_owner' ? 'text-black' : 'text-white'}`}>🏆</span>
                 <h3 className="font-bold text-lg mb-2">Best Prices</h3>
                 <p className={`text-sm ${
                   user.role === 'vehicle_owner' ? 'text-gray-700' : 
@@ -157,10 +154,10 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                 <div className={`p-6 rounded-2xl mx-auto mb-6 w-24 h-24 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ${
                   user.role === 'vehicle_owner' ? 'bg-yellow-500' : 'bg-yellow-400'
                 }`}>
-                  <span className="text-white text-4xl">🚚</span>
+                  <Truck className="text-white w-12 h-12" />
                 </div>
                 <h3 className="text-4xl font-bold text-gray-900 mb-4">
-                  🚚 {user.role === 'consumer' ? 'Service Vehicles' : user.role === 'vehicle_owner' ? 'Manage Vehicles' : 'Browse Vehicles'}
+                  {user.role === 'consumer' ? 'Service Vehicles' : user.role === 'vehicle_owner' ? 'Manage Vehicles' : 'Browse Vehicles'}
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
                   {user.role === 'consumer' 
@@ -176,13 +173,13 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                   <div className="flex justify-center space-x-4">
                     <span className={`px-3 py-1 rounded-full text-sm ${
                       user.role === 'vehicle_owner' ? 'bg-yellow-300 text-yellow-900' : 'bg-yellow-200 text-yellow-800'
-                    }`}>🚜 Agricultural</span>
+                    }`}>Agricultural</span>
                     <span className={`px-3 py-1 rounded-full text-sm ${
                       user.role === 'vehicle_owner' ? 'bg-yellow-300 text-yellow-900' : 'bg-yellow-200 text-yellow-800'
-                    }`}>🏗️ Construction</span>
+                    }`}>Construction</span>
                     <span className={`px-3 py-1 rounded-full text-sm ${
                       user.role === 'vehicle_owner' ? 'bg-yellow-300 text-yellow-900' : 'bg-yellow-200 text-yellow-800'
-                    }`}>🚰 Water Supply</span>
+                    }`}>Water Supply</span>
                   </div>
                 </div>
                 
@@ -210,10 +207,10 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                 <div className={`p-6 rounded-2xl mx-auto mb-6 w-24 h-24 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 ${
                   user.role === 'material_supplier' ? 'bg-green-600' : 'bg-blue-500'
                 }`}>
-                  <span className="text-white text-4xl">📦</span>
+                  <Package className="text-white w-12 h-12" />
                 </div>
                 <h3 className="text-4xl font-bold text-gray-900 mb-4">
-                  🧱 {user.role === 'consumer' ? 'Construction Materials' : user.role === 'material_supplier' ? 'Manage Materials' : 'Browse Materials'}
+                  {user.role === 'consumer' ? 'Construction Materials' : user.role === 'material_supplier' ? 'Manage Materials' : 'Browse Materials'}
                 </h3>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
                   {user.role === 'consumer' 
@@ -229,16 +226,16 @@ export const ServiceDashboard: React.FC<ServiceDashboardProps> = ({
                   <div className="flex justify-center space-x-2 flex-wrap gap-2">
                     <span className={`px-2 py-1 rounded-full text-xs ${
                       user.role === 'material_supplier' ? 'bg-green-300 text-green-900' : 'bg-blue-200 text-blue-800'
-                    }`}>🏖️ Sand</span>
+                    }`}>Sand</span>
                     <span className={`px-2 py-1 rounded-full text-xs ${
                       user.role === 'material_supplier' ? 'bg-green-300 text-green-900' : 'bg-blue-200 text-blue-800'
-                    }`}>🌱 Soil</span>
+                    }`}>Soil</span>
                     <span className={`px-2 py-1 rounded-full text-xs ${
                       user.role === 'material_supplier' ? 'bg-green-300 text-green-900' : 'bg-blue-200 text-blue-800'
-                    }`}>🧱 Bricks</span>
+                    }`}>Bricks</span>
                     <span className={`px-2 py-1 rounded-full text-xs ${
                       user.role === 'material_supplier' ? 'bg-green-300 text-green-900' : 'bg-blue-200 text-blue-800'
-                    }`}>🪨 Gravel</span>
+                    }`}>Gravel</span>
                   </div>
                 </div>
                 
